@@ -32,29 +32,32 @@
 			<!-- Main -->
 				<div id="main">
 					<div class="inner">
-
-					<!-- Boxes -->
 						<div class="thumbnails">
-							<form action="/action_page.php">
-								<label for="fname">搜尋:</label>
-								<input type="text" id="search" name="search"><br>
-								<input type="submit" value="Submit">
-							  </form>
-							  
-							 <!-- <script src="https://kit.fontawesome.com/7a07597102.js"></script>
-								<div class="wrap">
-  									<div class="search">
-      									<input  class="search-bar" type="text" name="search"  id="search"  placeholder="輸入名稱">
-										<button class="search-btn"><i class="fas fa-search"></i></button>
-								</div>
-  						
-				
 
-
-							  <div class="container-1">
-								<span class="icon"><i class="fa fa-search"></i></span>
+								<!--<form action="/action_page.php">
+									
+									<input type="text" id="search" name="search"><br>
+									<input type="submit" value="Submit">
+								</form>-->
+								<form id="searchform" method="get" action="http://www.google.com/custom">
+									<p id="searchlabel"><label for="q" accesskey="4">Search this site:</label></p>
+									<p id="searchinput"><input type="text" id="q" name="q" size="18" maxlength="255" value=" " /></p>
+									<p id="searchsubmit"><input type="submit" value="Search" />
+									<input type="hidden" name="cof" value="LW:116;L:https://hwang0422.github.io;LH:68;AH:left;GL:0;S:https://hwang0422.github.io/;AWFID:f6ba61d8d6060e421
+									;" />
+									<input type="hidden" name="domains" value="https://hwang0422.github.io/" />
+									<input type="hidden" name="sitesearch" value="https://hwang0422.github.io/" />
+									</p>
+								</form>
+							
+							<!--<div class="container-1">
 								<input type="search" id="search" placeholder="Search..." />
 							</div><br><br>-->
+
+							<!--<form action="PHP_Form.php" method="post">
+								　文字輸入欄位: <input type="test" name="YourName">
+								　<input type="submit" value="送出表單">
+							</form>-->
 							
 							<img src="http://www.fju.edu.tw/file/upload/flatVersion_Original.jpg" alt="map" width="1276" height="766"/>
 							<!---->
@@ -63,12 +66,12 @@
 
 
 							<!---->
-							</div>
-
 						</div>
 
 					</div>
+
 				</div>
+				
 
 			<!-- Footer -->
 				<footer id="footer">
@@ -90,9 +93,9 @@
 								<h3>公博樓</h3>
 								<a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="ignore">More</a>
 							</div>
-						</div>
+						</div>						
 						<div class="box">
-							<a href="https://hwang0422.github.io/SF" class="image fit" data-poptrox="ignore"><img src="https://cdn.discordapp.com/attachments/790447686503497782/791301890855403550/d212a34c715b75c4.jpg" alt="" /></a>
+							<a href="https://hwang0422.github.io/SF" class="image fit tag-web" data-poptrox="ignore"><img src="https://cdn.discordapp.com/attachments/790447686503497782/791301890855403550/d212a34c715b75c4.jpg" alt="" /></a>
 							<div class="inner">
 								<h3>聖言樓(SF)</h3>
 								<a href="https://hwang0422.github.io/SF" class="button fit" data-poptrox="ignore">More</a>
@@ -105,6 +108,7 @@
 								<a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="ignore">More</a>
 							</div>
 						</div>
+						
 						<div class="box">
 							<a href="https://hwang0422.github.io/MD" class="image fit" data-poptrox="ignore"><img src="images/pic01.jpg" alt="" /></a>
 							<div class="inner">
