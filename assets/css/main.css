@@ -1407,46 +1407,52 @@
 
 		}
 
+		/*container*/
 
-		.bbbb {
-			border-radius: 4px;
-			margin-bottom: 2em;
-			background: #2c2c32;
-			text-align: center;
-			
+		.container-1{
+			width: 200px;
+			vertical-align: middle;
+			white-space: nowrap;
+			position: relative;
 		}
-	
-			.bbbb > :last-child,
-			.bbbb > :last-child > :last-child,
-			.bbbb > :last-child > :last-child > :last-child {
-				margin-bottom: 0;	
-			}
-	
-			.bbbb .image.fit {
-				margin: 0;
-			}
-	
-			.bbbb .image img {
-				border-radius: 4px 4px 0 0;
-			}
-	
-			.bbbb .inner {
-				padding: 1.5em;
-				width: 100% !important;
-			}
-	
-				@media screen and (max-width: 480px) {
-	
-					.bbbb .inner {
-						padding: 1em;
-					}
-	
-				}
-	
-			.bbbb.alt {
-				border: 0;
-				border-radius: 0;
-				padding: 0;
-			}
-
+		.container-1{
+			width: 300px;
+			vertical-align: middle;
+			white-space: nowrap;
+			position: relative;
+		}
+		  
+		.container-1 input#search{
+			width: 200px;
+			height: 40px;
+			background: #2b303b;
+			border: none;
+			font-size: 10pt;
+			float: left;
+			color: #63717f;
+			padding-left: 10px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+		.container-1 input#search::-webkit-input-placeholder {
+			color: #65737e;
+		}
+		  
+		.container-1 input#search:-moz-placeholder { /* Firefox 18- */
+			color: #65737e;  
+		}
+		  
+		.container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+			color: #65737e;  
+		}
+		  
+		.container-1 input#search:-ms-input-placeholder {  
+			color: #65737e;  
+		}
+		
+		.container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+			outline:none;
+			background: #ffffff;
+		}
 		
