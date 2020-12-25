@@ -1077,12 +1077,14 @@
 /* dropbutton */
 	.dropbtn {
   		background-color: #70c7be;
-  		color: white;
-  		padding: 16px;
-  		font-size: 16px;
-  		border: none;
-  		cursor: pointer;
-  		border-radius: 4px;
+		color: white;
+		padding: 0 1.5em;
+		font-weight: 400;
+		height: 2.85em;
+		line-height: 2.95em;
+		border: none;
+		cursor: pointer;
+		border-radius: 4px;
 	}
 
 	.dropbtn:hover, .dropbtn:focus {
@@ -1098,7 +1100,8 @@
   		display: none;
   		position: absolute;
   		background-color: #f9f9f9;
-  		min-width: 160px;
+		heigjt: 10px;
+  		min-width: 110px;
   		overflow: auto;
   		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	}
