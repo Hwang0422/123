@@ -541,7 +541,7 @@
 		margin-bottom: 2em;
 		background: #2c2c32;
 		text-align: center;
-		
+		padding: 4px 0 0 0;
 	}
 
 		.box > :last-child,
@@ -659,7 +659,20 @@
 
 		.contain{
 			width: 175px;
+			text-align: center;
 		}
+
+		.boxes{
+			width: 200px;
+			height: 180px;
+			border-radius: 4px;
+			margin-bottom: 2em;
+			background: #2c2c32;
+			text-align: center;
+			padding: 1.5em 1em 1.5em 1em;
+		}
+
+
 
 /* List */
 
