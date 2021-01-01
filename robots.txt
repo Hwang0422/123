@@ -1,9 +1,0 @@
-User-agent: Mediapartners-Google
-Disallow: 
-
-User-agent: *
-Allow: /
-
-Sitemap: https://Hwang0422.github.io/sitemap.xml
-
-https://Hwang0422.github.io/sitemap.xml
