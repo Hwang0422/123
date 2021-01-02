@@ -121,4 +121,17 @@
 	   $("#詳細").hide();
 	   $("#代碼").show();
 	   });
+	
+	//show
+	    $("#btn4").click(function () {
+		$("#關於").show();
+		$("#資料").hide();
+		});
+
+	//transfer element show and hide
+	   $("#btn5").click(function () {
+	   $("#關於").hide();
+	   $("#資料").show();
+	   });
+	
 })(jQuery);
