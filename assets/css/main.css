@@ -654,6 +654,7 @@
 
 		.imagee{
 			width: 175px;
+			height: 100px;
 			border-radius: 4px 4px 0 0;
 			overflow: hidden;
 		}
@@ -676,14 +677,28 @@
 
 		.boxes{
 			width: 200px;
-			height: 200px;
+			height: 175px;
 			border-radius: 4px;
-			margin-bottom: 2em;
+			margin: 2em;
 			background: #2c2c32;
 			text-align: center;
 			padding: 1.5em 1em 1.5em 1em;
 		}
+		
 
+
+		.pagecon{
+			width: 900px;
+			height: 262px;
+			background: #323238;
+			text-align: left;
+			padding: 0.5em;
+			border-radius: 0px 4px 4px 0px;
+		}
+
+		.trcolor{
+			background: #414142;
+		}
 
 
 /* List */
