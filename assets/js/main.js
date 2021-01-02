@@ -110,5 +110,15 @@
 			});
 
 	});
+       //show
+	$("#btn1").click(function () {
+		$("#詳細").show();
+		$("#代碼").hide();
+		});
 
+	//transfer element show and hide
+	   $("#btn3").click(function () {
+	   $("#詳細").hide();
+	   $("#代碼").show();
+	   });
 })(jQuery);
