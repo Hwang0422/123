@@ -676,13 +676,35 @@
 
 		.boxes{
 			width: 200px;
-			height: 200px;
+			height: 175px;
 			border-radius: 4px;
-			margin-bottom: 2em;
-			background: #2c2c32;
+			margin: 2em;
+			background: #28282b;
 			text-align: center;
 			padding: 1.5em 1em 1.5em 1em;
 		}
+		
+
+
+		.pagecon{
+			width: 900px;
+			height: 262px;
+			background: #323238;
+			text-align: left;
+			padding: 0.5em;
+			border-radius: 0px 4px 4px 0px;
+		}
+
+		.trcolor{
+			background: #414142;
+		}
+
+		.logo {
+			position: fixed;
+			top: 80%;
+			right: 0;
+		}
+
 
 
 
