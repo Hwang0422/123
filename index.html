@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="assets/css/main.css" />
+       
 	</head>
 	<body id="top">
 
@@ -32,15 +33,19 @@
 	
 							<div class="container-1">
 								<input type="search" id="search" placeholder="Search..." />
-							</div><br><br>
+                            </div><br><br>
 
-							<img src="https://i.imgur.com/Cx4AzPS.png" alt="map" width="1016" height="875">
-							<!---->
-
-							
-
-
-							<!---->
+                            <!-- show element -->
+                            <input type="button" id="btn1" value="詳細地圖"/>   
+                            <!-- transfer element show and hide -->
+                            <input type="button" id="btn3" value="代碼地圖"/>  
+                            <!-- Block -->
+                            <div id="詳細" style="display:none;">
+                                <img src="https://i.imgur.com/7UfAjLu.jpg" alt="map" id="詳細" width="1000" height="600">  
+                            </div>
+                            <div id="代碼" style="display:none;">
+                                <img src="https://i.imgur.com/kMZ7Mpr.jpg" alt="" id="代碼" width="960" height="720">  
+                            </div>  
 						</div>
 
 					</div>
