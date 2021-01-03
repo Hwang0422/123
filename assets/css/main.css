@@ -727,6 +727,13 @@
 			margin: 0em 2em 0em 0em;
 		}
 
+		.line{
+			width: 100%;
+			height: 1px;
+			border-top: solid #779da6 1px;
+			margin: 0em 0em 2em 0em;
+		}
+
 
 
 
