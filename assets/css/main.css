@@ -711,6 +711,20 @@
 
 		ul.lista {
 			list-style-type: circle;
+			text-align: left;
+			margin-left: 45%;
+			padding: 0.5em;
+		}
+
+		ul.listb {
+			list-style-type: circle;
+			text-align: left;
+			margin-left: 30%;
+			padding: 0.5em;
+		}
+
+		.search{
+			margin: 0em 2em 0em 0em;
 		}
 
 
