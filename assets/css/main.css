@@ -716,11 +716,14 @@
 			padding: 0.5em;
 		}
 
-		ul.listb {
+		ul.listb{
 			list-style-type: circle;
 			text-align: left;
 			margin-left: 30%;
 			padding: 0.5em;
+		}
+		ul.listb h3 {
+			text-align: left;
 		}
 
 		.search{
@@ -734,6 +737,58 @@
 			margin: 0em 0em 2em 0em;
 		}
 
+
+		h2 {
+			margin-bottom: 1.5em;
+			text-align: center;
+			font-weight: 600;
+			line-height: 1.3;
+		  }
+		  h2 span {
+			display: block;
+			position: relative;
+		  }
+		  h2 span:before,
+		  h2 span:after {
+			content: "";
+			position: absolute;
+			top: 50%;
+			background: #779da6;
+			width: 10%;
+			height: 1px;
+		  }
+		  h2 span:before {
+			left: 30%; 
+		  }
+		  h2 span:after {
+			right: 30%;
+		  }
+
+		  h3 {
+			margin-bottom: 1.5em;
+			text-align: center;
+			font-weight: 300;
+			line-height: 1.3;
+		  }
+		  h3 span {
+			display: block;
+			position: relative;
+		  }
+		  h3 span:before,
+		  h3 span:after {
+			content: "";
+			position: absolute;
+			top: 50%;
+			background: #779da6;
+			width: 10%;
+			height: 1px;
+		  }
+		  h3 span:before {
+			left: 35%; 
+		  }
+		  h3 span:after {
+			right: 35%;
+		  }
 
 
 
