@@ -114,13 +114,21 @@
 	$("#btn1").click(function () {
 		$("#詳細").show();
 		$("#代碼").hide();
+		$("#水樂園").hide();
 		});
 
 	//transfer element show and hide
-	   $("#btn3").click(function () {
-	   $("#詳細").hide();
-	   $("#代碼").show();
-	   });
+	 $("#btn3").click(function () {
+	       $("#詳細").hide();
+	       $("#代碼").show();
+	       $("#水樂園").hide();
+	       });
+	
+	$("#btn2").click(function () {
+	       $("#詳細").hide();
+	       $("#代碼").hide();
+	       $("#水樂園").show();
+	       });
 	
 	//show
 	    $("#btn4").click(function () {
